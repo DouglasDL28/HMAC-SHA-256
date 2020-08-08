@@ -12,8 +12,8 @@ def protectedComparation(s1, s2):
     if len(s1) != len(s2):
         return False
     #Se realiza MAC en los dos token 
-    h1 = HMAC.new(key=b'METODOSEGURO', msg=s1, digestmod=SHA256)
-    h2 = HMAC.new(key=b'METODOSEGURO', msg=s2, digestmod=SHA256)
+    h1 = HMAC.new(key=b'METODOSEGURO', msg=str.encode(s1), digestmod=SHA256)
+    h2 = HMAC.new(key=b'METODOSEGURO', msg=str.encode(s2), digestmod=SHA256)
     time.sleep(0.01)
     return h1 == h2
 
