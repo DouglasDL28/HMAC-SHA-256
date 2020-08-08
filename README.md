@@ -1,7 +1,7 @@
 # HMAC-SHA-256
 ## Parte1:
 Implementación de HMAC-SHA-256 para Cifrado de Información.
-**Para ejecutarlo:**
+#### Para ejecutarlo:
 * Correr el comando:
 ```
 pip install pycryptodome
@@ -11,9 +11,9 @@ pip install pycryptodome
 python lab3-parte2-1.py
 ```
 ## Parte2:
-<p>Implementación de ambiente para simular un timing attack a un servidor.<br> 
-Se implementó un simulador de servidor inseguro, otro seguro con el método 1 y otro seguro con el método 2.<br>
-**Para instalar dependencias:**</p>
+Implementación de ambiente para simular un timing attack a un servidor.
+Se implementó un simulador de servidor inseguro, otro seguro con el método 1 y otro seguro con el método 2.
+#### Para instalar dependencias:
 * Crear un entorno virtual, correr el código en la dirección del proyecto:
 ```
 virtualenv venv
@@ -27,7 +27,7 @@ mypthon\Scripts\activate
 pip install -r requirements.txt
 ```
 ### Simulador inseguro:
-**Para ejecutarlo:**
+#### Para ejecutarlo:
 * Correr (en el entorno virtual) el programa que levanta el simulador del servidor:
 ```
 python unsafeApp.py
@@ -37,7 +37,7 @@ python unsafeApp.py
 python hacker.py
 ```
 ### Simulador seguro con el método 1:
-**Para ejecutarlo:**
+#### Para ejecutarlo:
 * Correr (en el entorno virtual) el programa que levanta el simulador del servidor:
 ```
 python safeAppMethod1.py
@@ -47,7 +47,7 @@ python safeAppMethod1.py
 python hacker.py
 ```
 ### Simulador seguro con el método 2:
-**Para ejecutarlo:**
+#### Para ejecutarlo:
 * Correr (en el entorno virtual) el programa que levanta el simulador del servidor:
 ```
 python safeAppMethod2.py
