@@ -11,9 +11,9 @@ pip install pycryptodome
 python lab3-parte2-1.py
 ```
 ## Parte2:
-Implementación de ambiente para simular un timing attack a un servidor. 
-Se implementó un simulador de servidor inseguro, otro seguro con el método 1 y otro seguro con el método 2.
-**Para instalar dependencias:**
+<p>Implementación de ambiente para simular un timing attack a un servidor.<br> 
+Se implementó un simulador de servidor inseguro, otro seguro con el método 1 y otro seguro con el método 2.<br>
+**Para instalar dependencias:**</p>
 * Crear un entorno virtual, correr el código en la dirección del proyecto:
 ```
 virtualenv venv
