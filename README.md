@@ -20,7 +20,7 @@ virtualenv venv
 ```
 * Activar el entorno virtual:
 ```
-mypthon\Scripts\activate
+venv\Scripts\activate
 ```
 * Instalar dependencias:
 ```
